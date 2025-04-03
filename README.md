@@ -48,5 +48,5 @@ La aplicación debería estar disponible en `http://localhost:3000`.
 ## Uso básico
 
 - Para añadir una nueva tarea, escribe en el campo de texto y presiona Enter
-- Para marcar una tarea como completada, haz clic en el checkbox junto a ella
+- Para marcar una tarea como completada, haz clic sobre ella
 - Para eliminar una tarea, haz clic en el botón de eliminar
