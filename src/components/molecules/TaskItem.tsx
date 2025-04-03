@@ -36,7 +36,7 @@ const TaskItem = ({ task, index, handleToggleTask, handleDeleteTask, handleToggl
 
   return (
     <div className='flex justify-between transition cursor-pointer shadow-md flex items-center gap-2 px-4 py-5 border-b border-gray-200 bg-purple-50 hover:bg-purple-100' onClick={() => handleToggleTask(index)}>
-      <div className='flex items-center gap-2'>
+      <div className='flex items-center gap-2 w-full'>
         <input className='cursor-pointer' type="checkbox" checked={task.completed} value={index} />
         {
           task.isEditing ?
